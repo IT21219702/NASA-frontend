@@ -40,6 +40,7 @@ function App() {
           }
         />
         <Route path="/api/nav" element={<NavBar />} />
+         <Route path="/" element={<LoginPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
